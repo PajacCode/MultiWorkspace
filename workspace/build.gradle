@@ -89,15 +89,7 @@ minecraft {
                 //HoloGui {
                     //source project(':HoloGui').sourceSets.main
                 //}
-                HarshDeath {
-                    source project(':HarshDeath').sourceSets.main
-                }
-                InControl {
-                    source project(':InControl').sourceSets.main
-                }
-                FxControl {
-                    source project(':FxControl').sourceSets.main
-                }
+
                 //RFToolsStorage {
                     //source project(':RFToolsStorage').sourceSets.main
                 //}
@@ -160,15 +152,7 @@ minecraft {
                 //HoloGui {
                     //source project(':HoloGui').sourceSets.main
                 //}
-                HarshDeath {
-                    source project(':HarshDeath').sourceSets.main
-                }
-                InControl {
-                    source project(':InControl').sourceSets.main
-                }
-                FxControl {
-                    source project(':FxControl').sourceSets.main
-                }
+
                 //RFToolsStorage {
                     //source project(':RFToolsStorage').sourceSets.main
                 //}
@@ -232,15 +216,7 @@ minecraft {
                 //HoloGui {
                     //source project(':HoloGui').sourceSets.main
                 //}
-                HarshDeath {
-                    source project(':HarshDeath').sourceSets.main
-                }
-                InControl {
-                    source project(':InControl').sourceSets.main
-                }
-                FxControl {
-                    source project(':FxControl').sourceSets.main
-                }
+
                 //RFToolsStorage {
                     //source project(':RFToolsStorage').sourceSets.main
                 //}
@@ -289,9 +265,7 @@ dependencies {
     }
     compile fg.deobf("net.darkhax.bookshelf:Bookshelf-1.16.4:9.3.18")
     compile fg.deobf("net.darkhax.gamestages:GameStages-1.16.4:6.0.1")
-    compile fg.deobf (project.dependencies.create("com.github.mcjty:lostcities:${lostcities_version}") {
-        transitive = false
-    })
+
 
     //compile fg.deobf("nl.elec332.core:eleccore:${minecraft_version}-2.1.47-Beta")
 
@@ -308,9 +282,7 @@ dependencies {
     //compile project(':ArienteWorld')
     //compile project(':DeepResonance')
     //compile project(':HoloGui')
-    compile project(':HarshDeath')
-    compile project(':InControl')
-    compile project(':FxControl')
+
     //compile project(':LostCities')
     //compile project(':RFToolsStorage')
     //compile project(':RFToolsBase')
